@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const { exit } = require('process');
 const { sortFiles } = require('./src/sortFiles');
 const args = process.argv.slice(2);
@@ -10,6 +9,7 @@ if(args.length < 3) {
 }
 
 const [src, dst, remove] = args;
+let directories = [src];
 
 fs.mkdir(dst, { recursive: true }, (err) => {
     if (err) {
@@ -30,14 +30,7 @@ fs.stat(src, (err, dirStats) => {
     }
 
     sortFiles(src, dst, remove);
-    if(remove === 1) {
-        fs.rmdir('./ssdir', { recursive: true }, (err) => { 
-            if(err) {
-                console.log(err);
-            }
-            console.log('DELETED ', src);
-        });
-    }   
+      
 })
 /*
 process.on('exit', () => {
@@ -50,4 +43,3 @@ process.on('exit', () => {
     });
 });
 */
-

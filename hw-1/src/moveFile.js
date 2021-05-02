@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-function moveFile(file, dst) {
+function moveFile(file, dst, remove) {
     const { dir, base } = path.parse(file);
     const fileName = base;
     const fileDir = path.join(dst, fileName[0]);
@@ -20,7 +20,6 @@ function moveFile(file, dst) {
                     console.log("Error deleting file: ", err);
                 }
                 console.log(`file ${file} moved to ${fileDir}`);
-                fs.rmdir(dir, () => { });
             });
         });
         

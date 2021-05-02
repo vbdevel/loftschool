@@ -18,11 +18,10 @@ function sortFiles(dir, dst, remove) {
                 }
 
                 if(stats.isDirectory()) {
-                    sortFiles(fullPath, dst, remove);
-                    fs.rmdir(fullPath, () => { });
+                    sortFiles(fullPath, dst, remove);   
                 }
                 else {
-                    moveFile(fullPath, dst); 
+                    moveFile(fullPath, dst, remove); 
                 }
             });
 
