@@ -1,0 +1,125 @@
+{
+  "skills": [
+    {
+      "number": 12,
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "number": 76,
+      "text": "Концертов отыграл"
+    },
+    {
+      "number": 30,
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "number": 20,
+      "text": "Лет на сцене в качестве скрипача"
+    },
+    {
+      "number": "2",
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "number": "3",
+      "text": "Концертов отыграл"
+    },
+    {
+      "number": "4",
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "number": "5",
+      "text": "Лет на сцене в качестве скрипача"
+    },
+    {
+      "number": "33",
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "number": "44",
+      "text": "Концертов отыграл"
+    },
+    {
+      "number": "55",
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "number": "66",
+      "text": "Лет на сцене в качестве скрипача"
+    },
+    {
+      "number": "0",
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "number": "0",
+      "text": "Концертов отыграл"
+    },
+    {
+      "number": "0",
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "number": "0",
+      "text": "Лет на сцене в качестве скрипача"
+    }
+  ],
+  "products": [
+    {
+      "src": "./assets/img/products/Work1.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work2.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work3.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work4.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work5.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work6.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work7.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work8.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Work9.jpg",
+      "name": "Вино вдохновение",
+      "price": 600
+    },
+    {
+      "src": "./assets/img/products/Знімок екрана 2021-05-19 о 18.29.12.png",
+      "name": "фото",
+      "price": "56"
+    },
+    {
+      "src": "./assets/img/products/pexels-kehn-hermano-7148662.jpg",
+      "name": "второе фото",
+      "price": "200"
+    }
+  ]
+}

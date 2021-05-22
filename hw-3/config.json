@@ -1,0 +1,14 @@
+{
+    "mail": {
+        "subject": "сообщение с сайта",
+        "smtp": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "secure": true,
+            "auth": {
+                "user": "loft.node@gmail.com",
+                "pass": "1qazxsw@"
+            }
+        }
+    }
+}
